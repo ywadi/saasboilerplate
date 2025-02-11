@@ -23,9 +23,14 @@
           <Github class="w-4 h-4" />
           <span>GitHub</span>
         </a>
-        <a href="/login" class="px-4 py-2 rounded-lg bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-[hsl(var(--primary)_/_0.9)] transition-colors">
-          Sign In
-        </a>
+        <div class="flex items-center space-x-4">
+          <a href="/login" class="px-4 py-2 rounded-lg border border-[hsl(var(--border))] text-[hsl(var(--foreground))] hover:bg-[hsl(var(--accent))] transition-colors">
+            Sign In
+          </a>
+          <a href="/signup" class="px-4 py-2 rounded-lg bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-[hsl(var(--primary)_/_0.9)] transition-colors">
+            Sign Up
+          </a>
+        </div>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -58,9 +63,14 @@
           <Github class="w-4 h-4" />
           <span>GitHub</span>
         </a>
-        <a href="/login" class="block px-3 py-2 rounded-md text-base font-medium bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-[hsl(var(--primary)_/_0.9)]">
-          Sign In
-        </a>
+        <div class="mt-4 space-y-2 px-3">
+          <a href="/login" class="block w-full px-4 py-2 text-center rounded-lg border border-[hsl(var(--border))] text-[hsl(var(--foreground))] hover:bg-[hsl(var(--accent))] transition-colors">
+            Sign In
+          </a>
+          <a href="/signup" class="block w-full px-4 py-2 text-center rounded-lg bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-[hsl(var(--primary)_/_0.9)] transition-colors">
+            Sign Up
+          </a>
+        </div>
       </div>
     </div>
   {/if}
