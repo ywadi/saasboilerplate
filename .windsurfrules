@@ -10,3 +10,5 @@
 - You have access to tree command for navigation
 - Supabase will be managed with migration scripts and you will store all and execute them when needed
 - Always check the tree command to know whats in the project and where you are
+- Use supabase, we are using the cloud, Always use migrations, NEVER USE DIRECT SQL, NEVER update previous migrations, allways increment a new migration file 
+- Always priorities server side approach when dealing with Supabase 
